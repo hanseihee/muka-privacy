@@ -52,12 +52,12 @@
     <!-- 한국어 -->
     <div class="card">
       <h2>개인정보 처리방침</h2>
-      <p class="muted">최종 업데이트: 2026년 7월 3일</p>
+      <p class="muted">최종 업데이트: 2026년 9월 5일</p>
 
-      <p><strong>무카(카메라 앱)</strong>는 이용자의 개인정보를 소중히 여기며, 어떠한 개인정보도 수집·저장·전송하지 않습니다.</p>
+      <p><strong>무카(카메라 앱)</strong>는 회원가입 없이 사용할 수 있습니다. 촬영물은 기기에서 처리하며, 광고 제공을 위해 Google AdMob을 사용합니다.</p>
 
       <h3>1. 수집하는 정보</h3>
-      <p>무카는 이용자로부터 어떠한 개인정보도 수집하지 않습니다. 회원가입이 없으며, 이름·이메일·위치 등 어떠한 식별 정보도 요구하지 않습니다.</p>
+      <p>촬영 기능은 이름·이메일·정확한 위치를 요구하지 않습니다. 광고 SDK에서 처리할 수 있는 정보는 아래에 설명합니다. 문의 메일을 보내시면 이메일 주소와 문의 내용을 답변에 사용합니다.</p>
 
       <h3>2. 카메라·마이크·사진 접근 권한</h3>
       <ul>
@@ -65,13 +65,13 @@
         <li><strong>마이크</strong>: 동영상 촬영 시 소리를 녹음하고 카메라 세션을 구성하기 위해 기기 내에서만 사용됩니다. 마이크 소리는 동영상 외에는 어디에도 기록되지 않습니다.</li>
         <li><strong>사진 보관함</strong>: 촬영한 사진·동영상을 기기의 사진 보관함에 저장하고, 앱 내 갤러리에서 보여주기 위해 사용됩니다.</li>
       </ul>
-      <p>이 모든 처리는 <strong>이용자의 기기 내에서만</strong> 이루어지며, 촬영물이나 데이터가 외부 서버로 전송되지 않습니다.</p>
+      <p>앱은 촬영물을 개발자 서버나 광고 서비스로 업로드하지 않습니다. iCloud 사진 동기화는 이용자의 Apple 설정에 따릅니다.</p>
 
       <h3>3. 제3자 공유</h3>
-      <p>무카는 어떠한 데이터도 제3자와 공유하지 않습니다. 광고 및 분석 도구를 사용하지 않습니다.</p>
+      <p>광고 제공에 Google Mobile Ads SDK(AdMob)를 사용합니다. 이 SDK는 광고 제공·측정·진단을 위해 IP 주소, 기기 식별자, 광고 상호작용 및 성능 정보를 처리할 수 있습니다. 자세한 내용은 <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google의 데이터 공개 안내</a>와 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p>
 
       <h3>4. 데이터 보관</h3>
-      <p>촬영한 사진과 동영상은 전적으로 이용자의 기기에 저장되며, 이용자가 직접 관리·삭제합니다. 개발자는 이에 접근할 수 없습니다.</p>
+      <p>사진과 동영상은 기기의 사진 보관함에 저장됩니다. 보관함 저장에 실패하거나 촬영이 중단된 영상은 복구와 재저장을 위해 앱 내부에 남을 수 있으며, 보관함 저장에 성공하면 해당 앱 내부 파일을 제거합니다. 남은 앱 내부 파일은 앱을 삭제하면 함께 제거됩니다. 개발자는 촬영물에 접근할 수 없습니다.</p>
 
       <h3>5. 문의</h3>
       <p>개인정보 처리방침에 대한 문의는 아래로 연락 주세요.<br>
@@ -84,21 +84,23 @@
       <p>무카 사용 중 문의사항이나 버그 제보는 아래 이메일로 연락 주세요. 최대한 빠르게 답변드리겠습니다.</p>
       <p>이메일: <a href="mailto:realmasse@gmail.com">realmasse@gmail.com</a></p>
       <h3>자주 묻는 질문</h3>
-      <p><strong>Q. 촬영 중인지 어떻게 알 수 있나요?</strong><br>사진을 촬영하는 순간 화면 전체가 깜빡이며 '촬영됨' 표시가 나타나고, 동영상 녹화 중에는 빨간 REC 표시와 경과 시간이 항상 표시됩니다. 이 촬영 표시는 끌 수 없으며, 촬영 중 화면이 꺼지거나 가려지지 않습니다.</p>
-      <p><strong>Q. 사진 화질이 기본 카메라보다 떨어지나요?</strong><br>아니요. 아이폰 기본 카메라와 동일한 촬영 파이프라인을 사용해 화질 차이가 없습니다.</p>
+      <p><strong>Q. 촬영 중인지 어떻게 알 수 있나요?</strong><br>사진을 촬영하면 화면이 깜빡이고, 동영상 녹화 중에는 빨간 REC 표시와 경과 시간이 표시됩니다. 준비 중과 저장 중 상태는 별도로 표시합니다. 녹화 중 자동 잠금을 방지하며, 앱을 벗어나거나 시스템이 촬영을 중단하면 영상 마무리를 시도합니다.</p>
+      <p><strong>Q. 사진 화질은 어떻게 설정하나요?</strong><br>화질은 기기, 렌즈와 촬영 설정에 따라 달라집니다. 지원 기기에서는 사진 설정 패널에서 48MP 촬영을 선택할 수 있습니다.</p>
     </div>
 
     <!-- 日本語 -->
     <div class="card lang-en">
       <h2>プライバシーポリシー</h2>
-      <p class="muted">最終更新日: 2026年7月4日</p>
-      <p><strong>ムカ（カメラアプリ）</strong>は、利用者の個人情報を<strong>一切収集・保存・送信しません</strong>。</p>
+      <p class="muted">最終更新日: 2026年9月5日</p>
+      <p><strong>ムカ（カメラアプリ）</strong>は会員登録なしで利用できます。撮影データは端末内で処理し、広告の配信にはGoogle AdMobを使用します。</p>
       <h3>収集する情報</h3>
-      <p>ムカは個人情報を収集しません。会員登録はなく、氏名・メールアドレス・位置情報などの識別情報を求めることもありません。</p>
+      <p>撮影機能は氏名・メールアドレス・正確な位置情報を要求しません。広告SDKが処理する情報については下記をご覧ください。お問い合わせのメールアドレスと内容は返信に使用します。</p>
       <h3>カメラ・マイク・写真へのアクセス</h3>
-      <p>カメラとマイクは、写真・ビデオの撮影とビデオの音声録音のためにのみ、端末内で使用されます。撮影中は画面に撮影インジケーターが常に表示され、これをオフにすることはできません。フォトライブラリへのアクセスは、撮影した写真・ビデオの保存と表示のためにのみ使用されます。データが外部サーバーに送信されることはありません。</p>
+      <p>カメラとマイクは撮影、動画の音声録音、カメラセッションの構成に使用します。フォトライブラリへのアクセスは撮影データの保存と表示に使用します。アプリは撮影データを開発者のサーバーや広告サービスにアップロードしません。iCloud写真の同期は利用者のApple設定に従います。</p>
       <h3>第三者への提供</h3>
-      <p>いかなるデータも第三者と共有しません。広告SDKや分析ツールは使用していません。</p>
+      <p>Google Mobile Ads SDK（AdMob）を使用しています。広告の配信・測定・診断のため、IPアドレス、端末識別子、広告への操作、パフォーマンス情報が処理される場合があります。詳細は<a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Googleのデータ開示ガイド</a>と<a href="https://policies.google.com/privacy">プライバシーポリシー</a>をご覧ください。</p>
+      <h3>データの保存</h3>
+      <p>写真と動画は端末の写真ライブラリに保存します。保存に失敗した動画や撮影が中断した動画は、復旧・再保存のためアプリ内に残る場合があります。写真ライブラリへの保存に成功するとアプリ内の該当ファイルを削除します。残ったアプリ内ファイルはアプリを削除すると一緒に削除されます。開発者は撮影データにアクセスできません。</p>
       <h3>お問い合わせ</h3>
       <p>メール: <a href="mailto:realmasse@gmail.com">realmasse@gmail.com</a></p>
     </div>
@@ -106,14 +108,16 @@
     <!-- English -->
     <div class="card lang-en">
       <h2>Privacy Policy</h2>
-      <p class="muted">Last updated: July 3, 2026</p>
-      <p><strong>Muka (camera app)</strong> respects your privacy and does <strong>not collect, store, or transmit any personal data</strong>.</p>
+      <p class="muted">Last updated: September 5, 2026</p>
+      <p><strong>Muka (camera app)</strong> requires no account. Captures are processed on your device. The app uses Google AdMob to serve ads.</p>
       <h3>Information We Collect</h3>
-      <p>Muka collects no personal information. There is no sign-up, and no identifying data (name, email, location, etc.) is requested.</p>
+      <p>Camera features do not request your name, email address, or precise location. Advertising SDK data use is described below. If you email support, your email address and message are used to respond.</p>
       <h3>Camera, Microphone &amp; Photos Access</h3>
-      <p>Camera and microphone are used solely to capture photos/videos and record video audio, entirely on your device. An on-screen capture indicator is always shown while taking photos or recording, and it cannot be disabled. Photo Library access is used only to save and display your captures. Nothing is uploaded to any server.</p>
+      <p>Camera and microphone access supports capture, video audio recording, and camera session configuration. Photo Library access saves and displays your captures. The app does not upload captures to developer servers or advertising services. iCloud Photos syncing follows your Apple settings.</p>
       <h3>Third Parties</h3>
-      <p>No data is shared with third parties. No advertising or analytics SDKs are used.</p>
+      <p>The app uses the Google Mobile Ads SDK (AdMob). It may process IP addresses, device identifiers, ad interactions, and performance information for advertising, measurement, and diagnostics. See <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google's data disclosure guide</a> and <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
+      <h3>Data Storage</h3>
+      <p>Photos and videos are saved to your device's Photo Library. Videos that could not be saved or were interrupted may remain in app storage for recovery and another save attempt. The app removes its stored file after Photos confirms a successful save. Remaining app files are removed when you delete the app. The developer cannot access your captures.</p>
       <h3>Contact</h3>
       <p>Email: <a href="mailto:realmasse@gmail.com">realmasse@gmail.com</a></p>
     </div>
